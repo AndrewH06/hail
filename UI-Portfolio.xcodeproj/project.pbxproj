@@ -61,19 +61,43 @@
 		8574475B2370D7D2008222BA /* UI-Portfolio */ = {
 			isa = PBXGroup;
 			children = (
-				8574475C2370D7D2008222BA /* AppDelegate.h */,
-				8574475D2370D7D2008222BA /* AppDelegate.m */,
-				8574475F2370D7D2008222BA /* SceneDelegate.h */,
-				857447602370D7D2008222BA /* SceneDelegate.m */,
-				857447622370D7D2008222BA /* ViewController.h */,
-				857447632370D7D2008222BA /* ViewController.m */,
-				857447652370D7D2008222BA /* Main.storyboard */,
-				857447682370D7D4008222BA /* Assets.xcassets */,
-				8574476A2370D7D4008222BA /* LaunchScreen.storyboard */,
-				8574476D2370D7D4008222BA /* Info.plist */,
 				8574476E2370D7D4008222BA /* main.m */,
+				857447762370D83B008222BA /* View Controls */,
+				857447772370D84C008222BA /* Views */,
+				857447752370D7F9008222BA /* Models */,
+				857447682370D7D4008222BA /* Assets.xcassets */,
+				8574476D2370D7D4008222BA /* Info.plist */,
 			);
 			path = "UI-Portfolio";
+			sourceTree = "<group>";
+		};
+		857447752370D7F9008222BA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8574475D2370D7D2008222BA /* AppDelegate.m */,
+				8574475C2370D7D2008222BA /* AppDelegate.h */,
+				857447602370D7D2008222BA /* SceneDelegate.m */,
+				8574475F2370D7D2008222BA /* SceneDelegate.h */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		857447762370D83B008222BA /* View Controls */ = {
+			isa = PBXGroup;
+			children = (
+				857447632370D7D2008222BA /* ViewController.m */,
+				857447622370D7D2008222BA /* ViewController.h */,
+			);
+			path = "View Controls";
+			sourceTree = "<group>";
+		};
+		857447772370D84C008222BA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				857447652370D7D2008222BA /* Main.storyboard */,
+				8574476A2370D7D4008222BA /* LaunchScreen.storyboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
