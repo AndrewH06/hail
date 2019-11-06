@@ -14,6 +14,9 @@
 		857447692370D7D4008222BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 857447682370D7D4008222BA /* Assets.xcassets */; };
 		8574476C2370D7D4008222BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8574476A2370D7D4008222BA /* LaunchScreen.storyboard */; };
 		8574476F2370D7D4008222BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8574476E2370D7D4008222BA /* main.m */; };
+		85B55EA123737D5B0079E50F /* Calc.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85B55EA023737D5B0079E50F /* Calc.storyboard */; };
+		85B55EA4237382CC0079E50F /* EasyDopeyLeafbird-max-1mb.gif in Resources */ = {isa = PBXBuildFile; fileRef = 85B55EA3237382CC0079E50F /* EasyDopeyLeafbird-max-1mb.gif */; };
+		85B55EA6237386760079E50F /* CalcController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B55EA5237386760079E50F /* CalcController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,10 @@
 		8574476B2370D7D4008222BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8574476D2370D7D4008222BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8574476E2370D7D4008222BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		85B55EA023737D5B0079E50F /* Calc.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Calc.storyboard; sourceTree = "<group>"; };
+		85B55EA3237382CC0079E50F /* EasyDopeyLeafbird-max-1mb.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "EasyDopeyLeafbird-max-1mb.gif"; sourceTree = "<group>"; };
+		85B55EA5237386760079E50F /* CalcController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalcController.m; sourceTree = "<group>"; };
+		85B55EA72373868E0079E50F /* CalcController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalcController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +74,7 @@
 				857447752370D7F9008222BA /* Models */,
 				857447682370D7D4008222BA /* Assets.xcassets */,
 				8574476D2370D7D4008222BA /* Info.plist */,
+				85B55EA2237382B10079E50F /* Images */,
 			);
 			path = "UI-Portfolio";
 			sourceTree = "<group>";
@@ -87,6 +95,8 @@
 			children = (
 				857447632370D7D2008222BA /* ViewController.m */,
 				857447622370D7D2008222BA /* ViewController.h */,
+				85B55EA5237386760079E50F /* CalcController.m */,
+				85B55EA72373868E0079E50F /* CalcController.h */,
 			);
 			path = "View Controls";
 			sourceTree = "<group>";
@@ -94,10 +104,19 @@
 		857447772370D84C008222BA /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				857447652370D7D2008222BA /* Main.storyboard */,
 				8574476A2370D7D4008222BA /* LaunchScreen.storyboard */,
+				857447652370D7D2008222BA /* Main.storyboard */,
+				85B55EA023737D5B0079E50F /* Calc.storyboard */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		85B55EA2237382B10079E50F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				85B55EA3237382CC0079E50F /* EasyDopeyLeafbird-max-1mb.gif */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,7 +176,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85B55EA4237382CC0079E50F /* EasyDopeyLeafbird-max-1mb.gif in Resources */,
 				8574476C2370D7D4008222BA /* LaunchScreen.storyboard in Resources */,
+				85B55EA123737D5B0079E50F /* Calc.storyboard in Resources */,
 				857447692370D7D4008222BA /* Assets.xcassets in Resources */,
 				857447672370D7D2008222BA /* Main.storyboard in Resources */,
 			);
@@ -174,6 +195,7 @@
 				8574475E2370D7D2008222BA /* AppDelegate.m in Sources */,
 				8574476F2370D7D4008222BA /* main.m in Sources */,
 				857447612370D7D2008222BA /* SceneDelegate.m in Sources */,
+				85B55EA6237386760079E50F /* CalcController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
