@@ -15,7 +15,17 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wui-VX-1kp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="878" y="534"/>
+            <point key="canvasLocation" x="1674" y="20"/>
+        </scene>
+        <!--Pythag-->
+        <scene sceneID="rx3-T7-1C6">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Pythag" referencedIdentifier="Pythag" id="gaf-gy-YSt" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="HI4-au-Bjr"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KlN-WD-vzl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1674" y="191"/>
         </scene>
         <!--By: Andrew Hale-->
         <scene sceneID="tne-QT-ifu">
@@ -74,6 +84,9 @@
                                 <state key="normal" title="Pythagoras">
                                     <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 </state>
+                                <connections>
+                                    <segue destination="gaf-gy-YSt" kind="show" id="xFe-QY-K6a"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="checkmark.seal.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="q38-AN-a2a">
                                 <rect key="frame" x="93" y="508" width="190" height="102"/>
