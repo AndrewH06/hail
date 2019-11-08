@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		852B40C3237626FD0044AF2D /* PythagController.m in Sources */ = {isa = PBXBuildFile; fileRef = 852B40C2237626FD0044AF2D /* PythagController.m */; };
+		852B40C6237628820044AF2D /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 852B40C5237628820044AF2D /* button.png */; };
 		8574475E2370D7D2008222BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8574475D2370D7D2008222BA /* AppDelegate.m */; };
 		857447612370D7D2008222BA /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 857447602370D7D2008222BA /* SceneDelegate.m */; };
 		857447642370D7D2008222BA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 857447632370D7D2008222BA /* ViewController.m */; };
@@ -24,6 +26,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		852B40C2237626FD0044AF2D /* PythagController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PythagController.m; sourceTree = "<group>"; };
+		852B40C4237627090044AF2D /* PythagController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PythagController.h; sourceTree = "<group>"; };
+		852B40C5237628820044AF2D /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
 		857447592370D7D2008222BA /* UI-Portfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UI-Portfolio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8574475C2370D7D2008222BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8574475D2370D7D2008222BA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -105,6 +110,8 @@
 				857447622370D7D2008222BA /* ViewController.h */,
 				85B55EA5237386760079E50F /* CalcController.m */,
 				85B55EA72373868E0079E50F /* CalcController.h */,
+				852B40C2237626FD0044AF2D /* PythagController.m */,
+				852B40C4237627090044AF2D /* PythagController.h */,
 			);
 			path = "View Controls";
 			sourceTree = "<group>";
@@ -126,6 +133,7 @@
 			children = (
 				85CDE3242374D5C500EB461B /* monkeys.jpg */,
 				85B55EA3237382CC0079E50F /* EasyDopeyLeafbird-max-1mb.gif */,
+				852B40C5237628820044AF2D /* button.png */,
 				85CDE3202374D41500EB461B /* tirangler.png */,
 			);
 			path = Images;
@@ -189,6 +197,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				85CDE3252374D5C500EB461B /* monkeys.jpg in Resources */,
+				852B40C6237628820044AF2D /* button.png in Resources */,
 				85B55EA4237382CC0079E50F /* EasyDopeyLeafbird-max-1mb.gif in Resources */,
 				85CDE3212374D41500EB461B /* tirangler.png in Resources */,
 				8574476C2370D7D4008222BA /* LaunchScreen.storyboard in Resources */,
@@ -207,6 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				852B40C3237626FD0044AF2D /* PythagController.m in Sources */,
 				857447642370D7D2008222BA /* ViewController.m in Sources */,
 				8574475E2370D7D2008222BA /* AppDelegate.m in Sources */,
 				8574476F2370D7D4008222BA /* main.m in Sources */,
