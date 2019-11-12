@@ -16,6 +16,7 @@
 		857447692370D7D4008222BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 857447682370D7D4008222BA /* Assets.xcassets */; };
 		8574476C2370D7D4008222BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8574476A2370D7D4008222BA /* LaunchScreen.storyboard */; };
 		8574476F2370D7D4008222BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8574476E2370D7D4008222BA /* main.m */; };
+		858CFFEE237B753A00AD9A92 /* calc.c in Sources */ = {isa = PBXBuildFile; fileRef = 858CFFED237B753A00AD9A92 /* calc.c */; };
 		85B55EA123737D5B0079E50F /* Calc.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85B55EA023737D5B0079E50F /* Calc.storyboard */; };
 		85B55EA4237382CC0079E50F /* EasyDopeyLeafbird-max-1mb.gif in Resources */ = {isa = PBXBuildFile; fileRef = 85B55EA3237382CC0079E50F /* EasyDopeyLeafbird-max-1mb.gif */; };
 		85B55EA6237386760079E50F /* CalcController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B55EA5237386760079E50F /* CalcController.m */; };
@@ -41,6 +42,8 @@
 		8574476B2370D7D4008222BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8574476D2370D7D4008222BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8574476E2370D7D4008222BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		858CFFEC237B6E2600AD9A92 /* control.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = control.h; sourceTree = "<group>"; };
+		858CFFED237B753A00AD9A92 /* calc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = calc.c; sourceTree = "<group>"; };
 		85B55EA023737D5B0079E50F /* Calc.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Calc.storyboard; sourceTree = "<group>"; };
 		85B55EA3237382CC0079E50F /* EasyDopeyLeafbird-max-1mb.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "EasyDopeyLeafbird-max-1mb.gif"; sourceTree = "<group>"; };
 		85B55EA5237386760079E50F /* CalcController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalcController.m; sourceTree = "<group>"; };
@@ -82,6 +85,8 @@
 			isa = PBXGroup;
 			children = (
 				8574476E2370D7D4008222BA /* main.m */,
+				858CFFEC237B6E2600AD9A92 /* control.h */,
+				858CFFED237B753A00AD9A92 /* calc.c */,
 				857447762370D83B008222BA /* View Controls */,
 				857447772370D84C008222BA /* Views */,
 				857447752370D7F9008222BA /* Models */,
@@ -222,6 +227,7 @@
 				8574476F2370D7D4008222BA /* main.m in Sources */,
 				857447612370D7D2008222BA /* SceneDelegate.m in Sources */,
 				85B55EA6237386760079E50F /* CalcController.m in Sources */,
+				858CFFEE237B753A00AD9A92 /* calc.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

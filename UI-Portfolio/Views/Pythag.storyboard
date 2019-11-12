@@ -7,10 +7,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Pythag Controller-->
         <scene sceneID="dcF-dU-JMv">
             <objects>
-                <viewController storyboardIdentifier="Pythag" id="IAW-jZ-Wyf" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Pythag" id="IAW-jZ-Wyf" userLabel="Pythag Controller" customClass="PythagController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="znq-QG-J84">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -54,11 +54,19 @@
                                 <state key="normal" title="Calculate">
                                     <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="calculate:" destination="IAW-jZ-Wyf" eventType="touchUpInside" id="9dz-fZ-MFI"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="ib6-px-DsW"/>
                     </view>
+                    <connections>
+                        <outlet property="side1" destination="tl0-uI-axe" id="Ixb-LP-5Xg"/>
+                        <outlet property="side2" destination="OER-Qo-5CQ" id="LZi-hU-tfJ"/>
+                        <outlet property="side3" destination="aVv-wb-1B2" id="GAi-zG-eyj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Evn-HF-zsX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
