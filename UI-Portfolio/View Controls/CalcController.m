@@ -68,7 +68,7 @@
     mathOp = opNumber;
 }
 
--(void)clearCalculator {                    // method to clear values of calculator
+-(void)clearCalculator {                    // method to clear values of calculator p
     mathOp = -1;
     arg1 = 0;
     arg2 = 0;

@@ -22,7 +22,7 @@
     double calcAnswer;
 }
 
-/* Section 2: Obj-C style variables to support Calc area management  */
+/* Section 2: Obj-C style variables to support Calc area management  Ω */
 @property Boolean initialCalcAreaInputState;
 // Note: Obj-C helps with string memory management:  1. retention "strong"  2. multi-thread "nonatomic"
 @property (strong, nonatomic) NSString *calcAreaDefault;
