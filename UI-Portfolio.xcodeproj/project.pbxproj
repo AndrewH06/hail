@@ -20,9 +20,12 @@
 		85B55EA123737D5B0079E50F /* Calc.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85B55EA023737D5B0079E50F /* Calc.storyboard */; };
 		85B55EA4237382CC0079E50F /* EasyDopeyLeafbird-max-1mb.gif in Resources */ = {isa = PBXBuildFile; fileRef = 85B55EA3237382CC0079E50F /* EasyDopeyLeafbird-max-1mb.gif */; };
 		85B55EA6237386760079E50F /* CalcController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B55EA5237386760079E50F /* CalcController.m */; };
+		85C7C59E237CAE1100386661 /* square.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 85C7C59D237CAE1100386661 /* square.jpg */; };
+		85C7C5A0237CB0AC00386661 /* SquareController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C7C59F237CB0AC00386661 /* SquareController.m */; };
+		85C7C5A3237CB46D00386661 /* pablo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 85C7C5A2237CB46D00386661 /* pablo.jpg */; };
 		85CDE31F2374D14F00EB461B /* Pythag.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85CDE31E2374D14F00EB461B /* Pythag.storyboard */; };
 		85CDE3212374D41500EB461B /* tirangler.png in Resources */ = {isa = PBXBuildFile; fileRef = 85CDE3202374D41500EB461B /* tirangler.png */; };
-		85CDE3232374D50000EB461B /* Jumpers.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85CDE3222374D50000EB461B /* Jumpers.storyboard */; };
+		85CDE3232374D50000EB461B /* square.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85CDE3222374D50000EB461B /* square.storyboard */; };
 		85CDE3252374D5C500EB461B /* monkeys.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 85CDE3242374D5C500EB461B /* monkeys.jpg */; };
 /* End PBXBuildFile section */
 
@@ -48,9 +51,13 @@
 		85B55EA3237382CC0079E50F /* EasyDopeyLeafbird-max-1mb.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "EasyDopeyLeafbird-max-1mb.gif"; sourceTree = "<group>"; };
 		85B55EA5237386760079E50F /* CalcController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalcController.m; sourceTree = "<group>"; };
 		85B55EA72373868E0079E50F /* CalcController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalcController.h; sourceTree = "<group>"; };
+		85C7C59D237CAE1100386661 /* square.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = square.jpg; sourceTree = "<group>"; };
+		85C7C59F237CB0AC00386661 /* SquareController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SquareController.m; sourceTree = "<group>"; };
+		85C7C5A1237CB0B500386661 /* SquareController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SquareController.h; sourceTree = "<group>"; };
+		85C7C5A2237CB46D00386661 /* pablo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pablo.jpg; sourceTree = "<group>"; };
 		85CDE31E2374D14F00EB461B /* Pythag.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Pythag.storyboard; sourceTree = "<group>"; };
 		85CDE3202374D41500EB461B /* tirangler.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tirangler.png; sourceTree = "<group>"; };
-		85CDE3222374D50000EB461B /* Jumpers.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Jumpers.storyboard; sourceTree = "<group>"; };
+		85CDE3222374D50000EB461B /* square.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = square.storyboard; sourceTree = "<group>"; };
 		85CDE3242374D5C500EB461B /* monkeys.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = monkeys.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -117,6 +124,8 @@
 				85B55EA72373868E0079E50F /* CalcController.h */,
 				852B40C2237626FD0044AF2D /* PythagController.m */,
 				852B40C4237627090044AF2D /* PythagController.h */,
+				85C7C59F237CB0AC00386661 /* SquareController.m */,
+				85C7C5A1237CB0B500386661 /* SquareController.h */,
 			);
 			path = "View Controls";
 			sourceTree = "<group>";
@@ -128,7 +137,7 @@
 				857447652370D7D2008222BA /* Main.storyboard */,
 				85B55EA023737D5B0079E50F /* Calc.storyboard */,
 				85CDE31E2374D14F00EB461B /* Pythag.storyboard */,
-				85CDE3222374D50000EB461B /* Jumpers.storyboard */,
+				85CDE3222374D50000EB461B /* square.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -136,6 +145,8 @@
 		85B55EA2237382B10079E50F /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				85C7C5A2237CB46D00386661 /* pablo.jpg */,
+				85C7C59D237CAE1100386661 /* square.jpg */,
 				85CDE3242374D5C500EB461B /* monkeys.jpg */,
 				85B55EA3237382CC0079E50F /* EasyDopeyLeafbird-max-1mb.gif */,
 				852B40C5237628820044AF2D /* button.png */,
@@ -203,6 +214,7 @@
 			files = (
 				85CDE3252374D5C500EB461B /* monkeys.jpg in Resources */,
 				852B40C6237628820044AF2D /* button.png in Resources */,
+				85C7C5A3237CB46D00386661 /* pablo.jpg in Resources */,
 				85B55EA4237382CC0079E50F /* EasyDopeyLeafbird-max-1mb.gif in Resources */,
 				85CDE3212374D41500EB461B /* tirangler.png in Resources */,
 				8574476C2370D7D4008222BA /* LaunchScreen.storyboard in Resources */,
@@ -210,7 +222,8 @@
 				857447692370D7D4008222BA /* Assets.xcassets in Resources */,
 				857447672370D7D2008222BA /* Main.storyboard in Resources */,
 				85CDE31F2374D14F00EB461B /* Pythag.storyboard in Resources */,
-				85CDE3232374D50000EB461B /* Jumpers.storyboard in Resources */,
+				85CDE3232374D50000EB461B /* square.storyboard in Resources */,
+				85C7C59E237CAE1100386661 /* square.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,6 +236,7 @@
 			files = (
 				852B40C3237626FD0044AF2D /* PythagController.m in Sources */,
 				857447642370D7D2008222BA /* ViewController.m in Sources */,
+				85C7C5A0237CB0AC00386661 /* SquareController.m in Sources */,
 				8574475E2370D7D2008222BA /* AppDelegate.m in Sources */,
 				8574476F2370D7D4008222BA /* main.m in Sources */,
 				857447612370D7D2008222BA /* SceneDelegate.m in Sources */,

@@ -56,3 +56,8 @@ double hypotenuse (double side1, double side2) {
     double side3 = sqrt(buffer);
     return side3;
 }
+
+double areacalc (double length, double width) {
+    double area = length * width;
+    return area;
+}

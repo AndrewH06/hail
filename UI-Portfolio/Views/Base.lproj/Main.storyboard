@@ -27,10 +27,10 @@
             </objects>
             <point key="canvasLocation" x="1674" y="191"/>
         </scene>
-        <!--Jumpers-->
+        <!--Square-->
         <scene sceneID="7Cm-np-xbS">
             <objects>
-                <viewControllerPlaceholder storyboardName="Jumpers" referencedIdentifier="Jumpers" id="bdC-aS-phb" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="square" referencedIdentifier="Square" id="bdC-aS-phb" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="dTK-lX-iBO"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bhZ-d8-PAY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -107,7 +107,7 @@
                                 <rect key="frame" x="138" y="509" width="103" height="101"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="13"/>
-                                <state key="normal" title="Jumpers">
+                                <state key="normal" title="Square">
                                     <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 </state>
                                 <connections>
