@@ -33,7 +33,7 @@
 		852B40C2237626FD0044AF2D /* PythagController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PythagController.m; sourceTree = "<group>"; };
 		852B40C4237627090044AF2D /* PythagController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PythagController.h; sourceTree = "<group>"; };
 		852B40C5237628820044AF2D /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
-		857447592370D7D2008222BA /* UI-Portfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UI-Portfolio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		857447592370D7D2008222BA /* UI-Portfolio - Andrew Hale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UI-Portfolio - Andrew Hale.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8574475C2370D7D2008222BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8574475D2370D7D2008222BA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8574475F2370D7D2008222BA /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
@@ -83,7 +83,7 @@
 		8574475A2370D7D2008222BA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				857447592370D7D2008222BA /* UI-Portfolio.app */,
+				857447592370D7D2008222BA /* UI-Portfolio - Andrew Hale.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -158,9 +158,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		857447582370D7D2008222BA /* UI-Portfolio */ = {
+		857447582370D7D2008222BA /* UI-Portfolio - Andrew Hale */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 857447722370D7D4008222BA /* Build configuration list for PBXNativeTarget "UI-Portfolio" */;
+			buildConfigurationList = 857447722370D7D4008222BA /* Build configuration list for PBXNativeTarget "UI-Portfolio - Andrew Hale" */;
 			buildPhases = (
 				857447552370D7D2008222BA /* Sources */,
 				857447562370D7D2008222BA /* Frameworks */,
@@ -170,9 +170,9 @@
 			);
 			dependencies = (
 			);
-			name = "UI-Portfolio";
+			name = "UI-Portfolio - Andrew Hale";
 			productName = "UI-Portfolio";
-			productReference = 857447592370D7D2008222BA /* UI-Portfolio.app */;
+			productReference = 857447592370D7D2008222BA /* UI-Portfolio - Andrew Hale.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -189,7 +189,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 857447542370D7D2008222BA /* Build configuration list for PBXProject "UI-Portfolio" */;
+			buildConfigurationList = 857447542370D7D2008222BA /* Build configuration list for PBXProject "UI-Portfolio - Andrew Hale" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -202,7 +202,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				857447582370D7D2008222BA /* UI-Portfolio */,
+				857447582370D7D2008222BA /* UI-Portfolio - Andrew Hale */,
 			);
 		};
 /* End PBXProject section */
@@ -412,7 +412,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		857447542370D7D2008222BA /* Build configuration list for PBXProject "UI-Portfolio" */ = {
+		857447542370D7D2008222BA /* Build configuration list for PBXProject "UI-Portfolio - Andrew Hale" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				857447702370D7D4008222BA /* Debug */,
@@ -421,7 +421,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		857447722370D7D4008222BA /* Build configuration list for PBXNativeTarget "UI-Portfolio" */ = {
+		857447722370D7D4008222BA /* Build configuration list for PBXNativeTarget "UI-Portfolio - Andrew Hale" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				857447732370D7D4008222BA /* Debug */,
